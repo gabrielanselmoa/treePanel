@@ -10,6 +10,18 @@ body{
     font-weight: 400;
 }
 
+@media (max-width: 120rem){
+    body{
+        background: url('../images/bg-desktop.jpg') center/cover no-repeat;
+        height: 90vh;
+    }
+}
+@media (max-width: 41.75rem){
+    body{
+        background: url('../images/bg-mobile.jpg') center/cover no-repeat;
+    }
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -20,7 +32,7 @@ body{
     border: 1px solid #ffffff60;
     border-radius: 10px;
     width: 350px;
-    height: 500px;
+    height: 550px;
     text-align: center;
     transition: all 0.3s;
     box-shadow: 0px 15px 20px purple;
